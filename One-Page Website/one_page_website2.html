@@ -1,0 +1,198 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Journey at Academy of Learning Career College</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #263238;
+      background: #f5f8fa;
+    }
+
+    header {
+      padding: 2rem 1rem;
+      text-align: center;
+      color: white;
+      background: #174a6e;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      padding: 1rem;
+      text-align: center;
+      background: #e5eef4;
+    }
+
+    nav a {
+      margin: 0 0.75rem;
+      color: #174a6e;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 950px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    section {
+      margin: 1.5rem 0;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 8px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      border-radius: 6px;
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0.7rem;
+      margin-top: 0.3rem;
+      border: 1px solid #aab7c0;
+      border-radius: 4px;
+      font: inherit;
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.7rem 1.2rem;
+      color: white;
+      background: #174a6e;
+      border: 0;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      padding: 1.5rem;
+      text-align: center;
+      color: white;
+      background: #174a6e;
+    }
+  </style>
+</head>
+<body>
+  <header id="home">
+    <h1>My Journey at Academy of Learning Career College</h1>
+    <p>Learning new skills, building confidence, and preparing for the future.</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="#home">Home</a>
+    <a href="#journey">My Journey</a>
+    <a href="#gallery">Pictures</a>
+    <a href="#videos">Videos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="journey">
+      <h2>My Learning Journey</h2>
+      <p>
+        My experience at Academy of Learning Career College has been an important
+        step toward my personal and professional goals. Through my studies, I am
+        developing practical knowledge, improving my computer and communication
+        skills, and learning how to approach new challenges with confidence.
+      </p>
+      <p>
+        Each class gives me an opportunity to grow. I appreciate the support of
+        my instructors and classmates, and I look forward to using what I learn
+        in my future career.
+      </p>
+    </section>
+
+    <section id="gallery">
+      <h2>Moments from My Journey</h2>
+      <p>Here are a few images that represent learning, growth, and achievement.</p>
+      <div class="gallery">
+        <img
+          src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=80"
+          alt="Students celebrating an educational achievement">
+        <img
+          src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80"
+          alt="Classmates collaborating on a project">
+        <img
+          src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+          alt="Student working on a laptop">
+      </div>
+    </section>
+
+    <section id="videos">
+      <h2>Learning and Inspiration</h2>
+      <p>
+        This video is an example of an educational resource that can inspire
+        lifelong learning. Replace it with a video that reflects your own
+        experience or program.
+      </p>
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/8jPQjjsBbIc"
+        title="Educational video about learning"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p>Use this form to share a message about my college journey.</p>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Journey at Academy of Learning Career College</p>
+    <a href="#home" style="color: white;">Back to top</a>
+  </footer>
+</body>
+</html>
+
+
+
