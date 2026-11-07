@@ -1,18 +1,22 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
-        <title> The Pet Shop</title>
-        <meta charset="UTF-8"
+        <title>Creating Effects with CSS</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!--NAVBAR-->
-        <nav>
+        <nav class="nav-bar">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contacts.html">contact</a></li>
             </ul>
             <ul>
+
+                <li class="drop">
+                    <a href="#">Animals</a>
+                <div class="rollover-menu">
                 <a href="#cat"><li>Cats & Kittens</li></a>
                 <a href="#dog"><li>Dogs & Puppies</li></a>
                 <a href="#rabbit"><li>Rabbits</li></a>
@@ -20,7 +24,9 @@
                 <a href="#fish"><li>Fish</li></a>
                 <a href="#reptile"><li>Reptiles</li></a>
                 <a href="#video"><li>Videos</Video></li></a>
-            </ul>
+                </div>
+            </li>
+        </ul>
         </nav>
         <header>
             <div>
@@ -31,35 +37,37 @@
         <section>
             <div>
                 <h2>Choose a Pet!</h2>
-                <div id="cat">
+                <div class="image-container" id="cat">
                     <h3>Cat & Kittens</h3>
                     <img src="images/Cat.png" alt="Picture of kittens">
+                    <div class="overlay"></div>
+                        <div class="text">Cats are small, carnivorous mammals that are often kept as pets. They are known for their agility, playfulness, and ability to hunt vermin. Cats have been domesticated for thousands of years and are popular companions around the world.</div>
                 </div>
                 <!--Dog Images-->
-                <div id="dog">
+                <div class="image-container" id="dog">
                     <h3>Dogs & Puppies</h3>
                     <img src="images/Dog.jpg" alt="Pictures of Dogs"
                 </div>
                  <!--Rabbit Images-->
-                <div id="rabbit">
+                <div class="image-container" id="rabbit">
                     <h3>Rabbits</h3>
                     <img src="images/Rabbit.jfif" alt="Pictures of Rabbit"
                 </div>
                 <!--Guinea pigs Images-->
-                <div id="guineapig">
+                <div class="image-container" id="guineapig">
                     <h3>Guinea pigs</h3>
                     <img src="images/Guineapig.jpg" alt="Pictures of Guineapig"
                 </div>
                 
                 <!--Goldfish Images-->
-                <div id="fish">
+                <div class="image-container" id="fish">
                     <h3>Gold Fish</h3>
                     <img src="images/Goldfish.png" alt="Pictures of Goldfish"
                 </div>
 
                 
                 <!--Bearded Dragon Images-->
-                <div id="reptile">
+                <div class="image-container" id="reptile">
                     <h3>Bearded Dragon</h3>
                     <img src="images/BeardedDragon.png" alt="Pictures of Bearded Dragon"
                 </div>
@@ -172,6 +180,10 @@
         </section>
         <!--footer-->
         <footer>
+            <div class="footer-text">
+                <p>The Animal Shop &copy;</p>
+            </div>
+
             <table>
                 <tr>
                     <td>
@@ -188,5 +200,4 @@
             </table>
         </footer>
     </body>
->>>>>>> 7df216bf479fc2993788bb463296379bceee1167
 </html>
